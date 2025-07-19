@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>خدمني - الحجز</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-gray-800 p-4 text-center">
+    <h1 class="text-2xl font-bold text-orange-400">حجز موعد</h1>
+  </header>
+
+  <main class="container p-6 max-w-xl mx-auto">
+    <form class="bg-gray-800 p-6 rounded-xl shadow-lg space-y-4">
+      <div>
+        <label class="block text-orange-300 mb-1">الاسم الكامل:</label>
+        <input type="text" class="w-full p-2 rounded bg-gray-700 text-white" placeholder="اكتب اسمك الكامل" />
+      </div>
+
+      <div>
+        <label class="block text-orange-300 mb-1">رقم الهاتف:</label>
+        <input type="tel" class="w-full p-2 rounded bg-gray-700 text-white" placeholder="06xxxxxxxx" />
+      </div>
+
+      <div>
+        <label class="block text-orange-300 mb-1">الخدمة المطلوبة:</label>
+        <input type="text" class="w-full p-2 rounded bg-gray-700 text-white" placeholder="مثلاً: نجار، كهربائي..." />
+      </div>
+
+      <div>
+        <label class="block text-orange-300 mb-1">التاريخ:</label>
+        <input type="date" class="w-full p-2 rounded bg-gray-700 text-white" />
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full text-black font-semibold">
+          تأكيد الحجز
+        </button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
