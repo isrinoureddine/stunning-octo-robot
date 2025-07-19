@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>نموذج الحجز - خدمني</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 data-lang="ar">نموذج الحجز</h1>
+    <h1 data-lang="fr" style="display:none;">Formulaire de réservation</h1>
+    <h1 data-lang="en" style="display:none;">Booking Form</h1>
+    <select id="languageSwitcher">
+      <option value="ar">العربية</option>
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
+  </header>
+
+  <main>
+    <form class="booking-form">
+      <label data-lang="ar">الاسم الكامل</label>
+      <label data-lang="fr" style="display:none;">Nom complet</label>
+      <label data-lang="en" style="display:none;">Full Name</label>
+      <input type="text" name="name" required />
+
+      <label data-lang="ar">رقم الهاتف</label>
+      <label data-lang="fr" style="display:none;">Téléphone</label>
+      <label data-lang="en" style="display:none;">Phone</label>
+      <input type="tel" name="phone" required />
+
+      <label data-lang="ar">نوع الخدمة</label>
+      <label data-lang="fr" style="display:none;">Type de service</label>
+      <label data-lang="en" style="display:none;">Service Type</label>
+      <input type="text" name="service" required />
+
+      <label data-lang="ar">التاريخ</label>
+      <label data-lang="fr" style="display:none;">Date</label>
+      <label data-lang="en" style="display:none;">Date</label>
+      <input type="date" name="date" required />
+
+      <button type="submit" data-lang="ar">إرسال</button>
+      <button type="submit" data-lang="fr" style="display:none;">Envoyer</button>
+      <button type="submit" data-lang="en" style="display:none;">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 خدمني. جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

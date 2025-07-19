@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>خدمني - Khedmni</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -17,13 +17,45 @@
       <option value="en">English</option>
     </select>
   </header>
+
   <main>
-    <section>
+    <section class="hero">
       <p data-lang="ar">اكتشف أفضل الحرفيين المحليين واحجز خدماتهم بسهولة.</p>
       <p data-lang="fr" style="display:none;">Découvrez les meilleurs artisans locaux et réservez leurs services facilement.</p>
       <p data-lang="en" style="display:none;">Discover the best local artisans and book their services easily.</p>
     </section>
+
+    <section class="artisans">
+      <h2 data-lang="ar">الحرفيون المميزون</h2>
+      <h2 data-lang="fr" style="display:none;">Artisans en vedette</h2>
+      <h2 data-lang="en" style="display:none;">Featured Artisans</h2>
+
+      <div class="artisan-card">
+        <img src="images/plumber.jpg" alt="Plumber">
+        <h3 data-lang="ar">أمين - سباك</h3>
+        <h3 data-lang="fr" style="display:none;">Amine - Plombier</h3>
+        <h3 data-lang="en" style="display:none;">Amine - Plumber</h3>
+        <button data-lang="ar">احجز الآن</button>
+        <button data-lang="fr" style="display:none;">Réserver</button>
+        <button data-lang="en" style="display:none;">Book Now</button>
+      </div>
+
+      <div class="artisan-card">
+        <img src="images/electrician.jpg" alt="Electrician">
+        <h3 data-lang="ar">فريد - كهربائي</h3>
+        <h3 data-lang="fr" style="display:none;">Farid - Électricien</h3>
+        <h3 data-lang="en" style="display:none;">Farid - Electrician</h3>
+        <button data-lang="ar">احجز الآن</button>
+        <button data-lang="fr" style="display:none;">Réserver</button>
+        <button data-lang="en" style="display:none;">Book Now</button>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 خدمني. جميع الحقوق محفوظة.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
